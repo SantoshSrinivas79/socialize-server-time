@@ -5,4 +5,4 @@ export const ServerTime = {
 
 ServerTime.now = () => Date.now() + this._timeDifference;
 
-ServerTime.date = () => new Date(this.now());
+ServerTime.date = () => new Date(Date.now());
